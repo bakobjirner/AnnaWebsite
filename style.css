@@ -17,8 +17,40 @@ html,body{
 .nav-link{
   font-size: 1.1em !important;
 }
+.link{
+  font-family: 'Poppins',sans-serif;
+  color: #222;
+}
+
+.questions{
+  padding-top: 5em;
+ text-align: center;
+}
+.centredText{
+ text-align: center;
+}
+
+.blocktext {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60em
+}
 
 
+
+.boldText{
+  font-weight: bold;
+}
+.italicText{
+  font-style: italic;
+}
+
+.roundBorderText{
+  border-style: solid;
+  border-radius: 2em;
+  padding:1em;
+  border-width: 0.1em;
+}
 
 
 
@@ -61,7 +93,7 @@ figure {
   height: 100%;
 }
 #fixed {
-  background-image: url('img/natur.jpg');
+  background-image: url('img/blueStonesBackground.jpg');
   position: fixed;
   display: block;
   top: 0;
@@ -80,9 +112,7 @@ figure {
 }
 
 
-footer{
-  
-}
+
 
 
 
@@ -169,8 +199,8 @@ cursor: pointer;
 }
 
 .mypadding{
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-bottom: 50px;
   padding-top: 50px;
 }
